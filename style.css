@@ -1,0 +1,477 @@
+body {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    text-align: center;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.contenerg {
+    max-width: 1440px;
+    margin: auto;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+ 
+    
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.K1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.C1 {
+    margin-left: -150px;
+}
+
+.ssection2 {
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.btn1{
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 15px;
+    font-size: 15px;
+    border: 0px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px hsl(171, 66%, 44%);
+}
+.btn1:hover {
+    cursor: pointer;
+
+}
+
+.btn2 {
+    background: hsl(233, 100%, 69%);
+    border-radius: 20px;
+    font-size: 15px;
+    border: 0;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px hsl(233, 100%, 69%); 
+}
+.btn2:hover {
+    cursor: pointer;
+}
+
+.t1 {
+    color: white;
+    justify-content: space-between;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.btn1 {
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 20px;
+    color: white;
+    border-color: hsl(171, 66%, 44%);
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    width: 200px;
+    box-shadow: 10px 5px 5px hsl(171, 66%, 44%);
+}
+
+.btn2 {
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 20px;
+    color: rgb(250, 250, 250);
+    border-color: rgb(168, 89, 242);
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    width: 200px;
+    box-shadow: 10px 5px 5px hsl(233, 100%, 69%);
+}
+
+.conteneur {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sfooter {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(222, 218, 218);
+    justify-content: space-around;
+    margin-bottom: 5px;
+
+}
+
+div {
+    padding: 1rem;
+}
+
+.ssfooter {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Q:hover {
+    color: rgb(89, 205, 187);
+}
+
+.Q {
+    margin: 5px;
+
+}
+
+.sociaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 10%;
+    margin-left: 12px;
+    color: rgb(42, 42, 42);
+    cursor: pointer;
+}
+
+.fb:hover {
+    color: hsl(171, 66%, 44%)
+}
+
+.logof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-right: 100px;
+    margin-top: 5%;
+
+}
+
+div a {
+    color: black;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+    }
+
+    .logof {
+        width: 100px;
+    }
+
+    .btn1 {
+        margin-left: 50px;
+    }
+
+    .responsive {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+
+    }
+
+    .respo {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .respo .btn1 {
+        height: 30px;
+    }
+
+    .respo .btn2 {
+        height: 30px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        body {
+            font-size: 15px;
+            text-align: center;
+        }
+
+        .img1 {
+            width: 50%;
+        }
+
+        .logof {
+            width: 100px;
+        }
+        
+
+        .C1 {
+            margin-right: 100px;
+        }
+
+        .ssection2 {
+            margin-left: 50px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .section2 {
+            display: block;
+            margin: auto;
+        }
+    }
+
+    @media screen and (max-width: 763px) {
+        body {
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .google {
+            margin: 12px;
+            height: 24px;
+        }
+
+        .sun {
+            width: 75%;
+        }
+
+        .pied {
+            height: 50px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        body {
+            background-image: url(images/bg-header-mobile.png);
+            background-repeat: no-repeat;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+
+        }
+        
+        .section2 {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .section3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .conteneur {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sfooter {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .C1 {
+            width: 200px;
+            height: 200px;
+            margin-right: 0px;
+            margin-left: 15px;
+        }
+
+        .K1 {
+            margin-bottom: 15px;
+        }
+        
+
+        .responsive {
+            display: contents;
+        }
+
+        .google {
+            margin-top: 50px;
+        }
+
+        .clip {
+            margin-bottom: 50px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .ssection2 {
+            margin-bottom: 10%;
+            text-align: center;
+        }
+        .respo{
+            display: contents;
+            
+        }
+        .btn1{
+            margin-bottom: 15px;
+            margin-right: 50px;
+        }
+
+        .logof {
+            margin-left: 40%;
+            width: 50px;
+        }
+
+        .whether {
+            margin-bottom: 5%;
+        }
+
+        .sun {
+            margin-bottom: 5%;
+        }
+
+        .charge {
+            margin-bottom: 10%;
+        }
+
+        .section3 {
+            margin-bottom: 5%;
+        }
+
+        .conteneur {
+            margin-bottom: 10%;
+        }
+
+        .clip {
+            margin-bottom: 20%;
+        }
+
+        .footer {
+            margin-top: 50px;
+            height: 400px;
+            width: 100%;
+        }
+
+        .respo2 {
+            margin-left: 40px;
+        }
+
+        .google {
+            height: 50px;
+            margin-top: 15px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .C1 {
+            margin: auto;
+        }
+
+        .footer {
+            height: 350px;
+        }
+
+        .whether {
+            text-align: center;
+        }
+
+        .conteneur {
+            margin: auto;
+        }
+
+        .footer {
+            margin-top: 150px;
+        }
+    }
+
+    @media screen and (max-width: 253px) {
+
+        .K1 {
+            margin-bottom: 15px;
+        }
+
+        .C1 {
+            width: 200px;
+            height: 200px
+        }
+
+        .google {
+            margin-top: 50px;
+        }
+
+        .clip {
+            margin-bottom: 70%;
+        }
+
+        .ssection2 {
+            margin-bottom: 10%;
+            text-align: center;
+        }
+
+        .logof {
+            margin-left: 40%;
+            width: 50px;
+        }
+
+        .whether {
+            margin-bottom: 5%;
+        }
+
+        .sun {
+            margin-bottom: 5%;
+        }
+
+        .charge {
+            margin-bottom: 10%;
+        }
+
+        .section3 {
+            margin-bottom: 5%;
+        }
+
+        .conteneur {
+            margin-bottom: 50%;
+        }
+
+        .clip {
+            margin-bottom: 10%;
+        }
+
+        .footer {
+            margin-top: 150px;
+            height: 350px;
+        }
+    }
+
+    @media screen and (max-width: 225px) {
+        body {
+            font-size: 10px;
+        }
+
+        .btn2 {
+            background-color: rgb(82, 82, 229);
+        }
+
+        .btn4 {
+            background-color: rgb(82, 82, 229);
+        }
+
+    }
+}
